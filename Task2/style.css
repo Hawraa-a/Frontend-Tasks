@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+.page{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.background{
+    display: flex; 
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.top{
+    flex: 1; 
+    background-color: rgb(139, 96, 132);
+}
+
+.bottom{
+    flex: 1; 
+    background-color: rgb(19, 72, 102);
+}
+
+.list {
+  background: #dde0e2;
+  width: 360px;
+  padding: 20px;
+  border-radius: 12px; 
+}
+
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid grey;
+    background: transparent;
+}
+
+.add-btn {
+  background: #a2a3a5;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.highlight{
+    color: rgb(32, 92, 116);
+}
+
+.task {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.task span {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.icons button {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.edit {
+  background: rgb(139, 96, 132);
+  color: white;
+}
+
+.delete {
+  background: rgb(19, 72, 102);
+  color: white;
+}
+
+.task.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.text {
+    transform: translateY(-15%);
+    margin: 50px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 0.4;
+}
+
+#white-text {
+  color: white;
+}
