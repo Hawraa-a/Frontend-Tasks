@@ -1,5 +1,5 @@
 let email = "hawraa@gmail.com";
-let pass = "1234";
+let password = "1234";
 let attempts = 3;
 
 function askLogin() {
